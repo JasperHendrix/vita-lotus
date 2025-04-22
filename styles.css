@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #1a1a1a;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d4af37; /* Gold color for hover */
+}
+
+/* Header Styles */
+header {
+    background-color: #f1e4c7; /* Creme background */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d4af37; /* Gold text */
+}
+
+.tagline {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f1e4c7;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #333;
+}
+
+footer a {
+    color: #000;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #d4af37;
+}
